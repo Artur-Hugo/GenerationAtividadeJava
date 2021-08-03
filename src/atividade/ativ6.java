@@ -1,4 +1,5 @@
 package atividade;
+import java.lang.Math;
 
 import java.util.Scanner;
 
@@ -13,16 +14,20 @@ public class ativ6 {
 		System.out.println("Digite o valor do x1:\n");
 			x1  = leitor.nextDouble();
 			System.out.println("Digite o valor do x2:\n");
-			System.out.println(x2);
+			x2 = leitor.nextDouble();
 			System.out.println("Digite o valor do y1:\n");
 			y1  = leitor.nextDouble();
 			System.out.println("Digite o valor do y2:\n");
 			y2  = leitor.nextDouble();
-			p1 = mat.pow(((x2-x1)), 2.0);
-			p2 = mat.potencia((y2-y1), 2.0)
-			d = mat.raiz(p1+p2, 2.0)
-			escreva("O calculo é " + mat.arredondar(d,2) )
+			p1 = Math.pow(((x2-x1)), 2.0);
+			p2 = Math.pow((y2-y1), 2.0); 
+			d = Math.sqrt((p1 + p2)); 
+			System.out.printf("O calculo é %.2f" , d );
 
+			
+			
+			leitor.close();
 	}
 
+	
 }

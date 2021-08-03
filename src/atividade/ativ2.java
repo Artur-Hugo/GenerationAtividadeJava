@@ -21,6 +21,8 @@ public class ativ2 {
 		  
 		  System.out.println("A idade em anos, meses e dias é: " + "\nDias: " + dia +"\nMes: " +  meses + "\nAno: " + ano);
 		
+		  
+		  leitor.close();
 	}
 
 }

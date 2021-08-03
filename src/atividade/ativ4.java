@@ -35,6 +35,7 @@ public class ativ4 {
 		System.out.println("Calculo\n");
 		System.out.println("Valor de D:" + D + ", Valor de R: " + R + ", Valor de S: " + S);
 		
+		leitor.close();
 	}
 	
 }

@@ -20,6 +20,9 @@ public class ativ5 {
 	    media = ((nota1*2)+(nota2*3)+(nota3*5))/10;
 	    		System.out.println("A média ponderada é " + media);
 		
+
+	
+	    		leitor.close();
 	}
 
 }
